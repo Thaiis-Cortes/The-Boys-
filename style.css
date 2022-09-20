@@ -1,0 +1,180 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+list-style: none;
+text-decoration: none;}
+
+
+body{
+    background: url(./img/bg.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;}
+
+
+
+.logo{
+    width: 150px;
+    }
+
+
+header{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 48px;
+    
+    width: 100%;
+    height: 15vh;}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}   
+
+ul{display: flex;
+   align-items: center;
+   margin-left: 30px;
+
+
+}
+
+li{
+    margin-left: 30px;
+}
+
+a{
+    font-size: 18px;
+    color: #ffff;
+    font-weight: light;
+    border-bottom: 2px solid transparent;
+    transition: all .6s;
+}
+
+a:hover {
+    color: #138ecc;
+    border-bottom: 2px solid #138ecc;
+}
+
+
+
+
+.img-search{
+    width: 20px;
+    cursor: pointer;
+    filter: invert(1);
+    margin: auto;
+    
+
+}
+
+.img-profile{
+    width: 49px;
+    cursor: pointer;
+    margin: auto;
+
+}
+
+main{
+    width: 80%;
+    display: block;
+    margin: 8%
+}
+.theboysLogo{
+    width: 40%;
+    padding-bottom: 22px;
+    margin-top: -2%;
+    margin-left: 2%;
+}
+
+
+button{
+    padding: 20px 45px;
+    background: #425265;
+    margin-bottom: 2em;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    transition: all .3s;
+    border: none;
+    cursor: pointer;
+    border-bottom: solid 1px #ffff;
+
+}
+
+button:hover{
+    opacity: 0.7;
+    background: #138ecc;
+}
+
+.watch{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 45px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 2%;
+    font-size: 25px;
+    color: #fff;
+    border-bottom: 4px solid #fff;
+    background: #0f79af;
+    transition: all .3s;
+    margin-top: 10px;
+    width: 26%;
+}
+
+.watch img{
+    width: 30px;
+    filter: invert(1);
+   
+}
+
+.watch p {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 7px;
+   
+   
+  
+}
+b{     margin-left: -5%;
+       font-size: 25px;
+    
+
+}
+
+    
+  
+.show-text{
+    color: #fff;
+    font-weight: normal;
+    line-height: 30px;
+    width: 70%;
+    
+}
+
+    
+.cards{
+    display: flex;
+    flex-flow:row;
+    align-items: center;
+    margin-left: 50%;
+    margin-top: 3%
+}
+ 
+.cards img{
+    width: 52%;
+    margin-top: 9%;
+    margin-top: -20%;
+    margin-left: -10%;
+    box-shadow: 12px 0px 32px 2px black;
+    margin-left: -120px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    overflow: hidden;
+}
+
+.cards img:hover{
+    transform: translateY(-16px) rotate(3deg);
+}
